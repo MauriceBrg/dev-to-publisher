@@ -1,0 +1,123 @@
+{
+    "resource": "/",
+    "path": "/",
+    "httpMethod": "POST",
+    "headers": {
+        "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2",
+        "Cache-Control": "no-cache",
+        "CloudFront-Forwarded-Proto": "https",
+        "CloudFront-Is-Desktop-Viewer": "true",
+        "CloudFront-Is-Mobile-Viewer": "false",
+        "CloudFront-Is-SmartTV-Viewer": "false",
+        "CloudFront-Is-Tablet-Viewer": "false",
+        "CloudFront-Viewer-Country": "US",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Host": "dzsiyaekb2.execute-api.eu-central-1.amazonaws.com",
+        "Pragma": "no-cache",
+        "User-Agent": "Java/1.8.0_312",
+        "Via": "1.1 c8997576b0e59159a991d905466fd2d4.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Id": "2JXZS9Xl0JLO8TOiLjWjFlMWOb75HSXRRo-WtPD4wxaJgVZOHCaUzA==",
+        "X-Amzn-Trace-Id": "Root=1-61ffdc9c-51e4d496056d00926ba35636",
+        "X-API-Key": "redated",
+        "X-Forwarded-For": "54.68.40.96, 130.176.100.162",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2"
+        ],
+        "Cache-Control": [
+            "no-cache"
+        ],
+        "CloudFront-Forwarded-Proto": [
+            "https"
+        ],
+        "CloudFront-Is-Desktop-Viewer": [
+            "true"
+        ],
+        "CloudFront-Is-Mobile-Viewer": [
+            "false"
+        ],
+        "CloudFront-Is-SmartTV-Viewer": [
+            "false"
+        ],
+        "CloudFront-Is-Tablet-Viewer": [
+            "false"
+        ],
+        "CloudFront-Viewer-Country": [
+            "US"
+        ],
+        "Content-Type": [
+            "application/json; charset=UTF-8"
+        ],
+        "Host": [
+            "dzsiyaekb2.execute-api.eu-central-1.amazonaws.com"
+        ],
+        "Pragma": [
+            "no-cache"
+        ],
+        "User-Agent": [
+            "Java/1.8.0_312"
+        ],
+        "Via": [
+            "1.1 c8997576b0e59159a991d905466fd2d4.cloudfront.net (CloudFront)"
+        ],
+        "X-Amz-Cf-Id": [
+            "2JXZS9Xl0JLO8TOiLjWjFlMWOb75HSXRRo-WtPD4wxaJgVZOHCaUzA=="
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-61ffdc9c-51e4d496056d00926ba35636"
+        ],
+        "X-API-Key": [
+            "redacted"
+        ],
+        "X-Forwarded-For": [
+            "54.68.40.96, 130.176.100.162"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+        "resourceId": "42q01jb1w0",
+        "resourcePath": "/",
+        "httpMethod": "POST",
+        "extendedRequestId": "NH9ogFj5liAFiRA=",
+        "requestTime": "06/Feb/2022:14:35:08 +0000",
+        "path": "/prod/",
+        "accountId": "689680084035",
+        "protocol": "HTTP/1.1",
+        "stage": "prod",
+        "domainPrefix": "dzsiyaekb2",
+        "requestTimeEpoch": 1644158108603,
+        "requestId": "46041587-cc2f-4712-90b7-539dfe1b6202",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "cognitoIdentityId": null,
+            "apiKey": "redacted",
+            "principalOrgId": null,
+            "cognitoAuthenticationType": null,
+            "userArn": null,
+            "apiKeyId": "redacted",
+            "userAgent": "Java/1.8.0_312",
+            "accountId": null,
+            "caller": null,
+            "sourceIp": "54.68.40.96",
+            "accessKey": null,
+            "cognitoAuthenticationProvider": null,
+            "user": null
+        },
+        "domainName": "redacted.execute-api.eu-central-1.amazonaws.com",
+        "apiId": "redacted"
+    },
+    "body": "{\"PostURL\":\"https://dev.to/aws-builders/understanding-the-1c8b-temp-slug-8905768?preview=1460ef52da4ee27c764d099c5b4356c0533e035625fd87f373764f962334c8f592401c173f00ed1c8541dabae309135d3eb1f\",\"ApiKey\":\"7***********B\"}",
+    "isBase64Encoded": false
+}
