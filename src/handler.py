@@ -46,8 +46,6 @@ def publish_article_by_id(article_id, api_key):
 
     print(f"Publishing article {article_id}")
 
-    return
-
     response = requests.post(
         url=url,
         data={
@@ -83,6 +81,8 @@ def lambda_handler(event, context):
 
     if article_id is not None:
         publish_article_by_id(article_id=article_id, api_key=api_key)
+    
+    return {}
 
 if __name__ == "__main__":
 
