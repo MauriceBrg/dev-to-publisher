@@ -3,7 +3,6 @@ import os
 from aws_cdk import (
     # Duration,
     Stack,
-    CfnOutput,
     aws_apigateway as apigw,
     aws_lambda as _lambda,
     aws_lambda_python_alpha as py_lambda,
@@ -19,6 +18,7 @@ SRC_DIR = os.path.join(
 )
 
 class DevToPublisherStack(Stack):
+    """Stack that contains the resources to publish Articles on dev.to"""
 
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
